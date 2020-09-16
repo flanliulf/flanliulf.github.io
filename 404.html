@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-    
+    <meta name="robots" content="noindex,nofollow">
   
   <!-- 渲染优化 -->
   <meta name="renderer" content="webkit">
@@ -17,7 +17,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>关于 - Fancy Liu Blog</title>
+  <title>404 Not Found - Fancy Liu Blog</title>
   
 
   
@@ -341,7 +341,7 @@
   
     
     
-        <div class='cover-wrapper docs search' style="display: none;">
+        <div class='cover-wrapper page search' style="display: none;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg"></div>
           
@@ -432,21 +432,21 @@
   <div id="pjax-ispage">false</div> 
   <div id="pjax-pageTitle"></div> 
   <div id="pjax-enable-cover">true</div> 
-  <div id="pjax-comment-path"></div> 
-  <div id="pjax-comment-placeholder">有什么想对我说的呢？</div> 
+  <div id="pjax-comment-path">/404.html</div> 
+  <div id="pjax-comment-placeholder">请留言告诉我您要访问哪个页面找不到了</div> 
 </div> 
  
  
 <script> 
   // 处理封面 此时 jquery 还没加载 
-  if ("none" == "none") { // 移除封面 
+  if ("half" == "none") { // 移除封面 
     document.getElementsByClassName('cover-wrapper')[0].style.display = "none"; 
     document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show"); 
   } else { 
-    if ("none" == "half") { // 半屏 
+    if ("half" == "half") { // 半屏 
       document.getElementsByClassName('cover-wrapper')[0].setAttribute('id', 'half'); 
       document.getElementsByClassName('scroll-down')[0].style.display = "none"; 
-    } else if ("none" == "full") { // 全屏 
+    } else if ("half" == "full") { // 全屏 
       document.getElementsByClassName('cover-wrapper')[0].setAttribute('id', 'full'); 
       document.getElementsByClassName('scroll-down')[0].style.display = ""; 
     } 
@@ -460,7 +460,7 @@
         
 
 <div class='l_main no_sidebar'>
-  <article class="article post white-box reveal md shadow article-type-docs" id="docs" itemscope itemprop="blogPost">
+  <article class="article post white-box reveal md shadow article-type-page" id="page" itemscope itemprop="blogPost">
   
 
 
@@ -473,16 +473,12 @@
 
 
   
+  <p class='p logo center huge'>404</p>
+<p class='p center bold'>很抱歉，您访问的页面不存在</p>
+<p class='p center small'>可能是输入地址有误或该地址已被删除</p>
+
+
   
-  
-  
-    
-    <div class='footer'>
-      
-      
-      
-      
-    </div>
   
   
     
